@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "Aplicação:Ernesto"
+const webContent = "Aplicação:Ernesto-v1"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
